@@ -1,0 +1,85 @@
+In Cmd
+
+minikube start
+minikube service list
+minikube service <service-name> --url
+minikube stop
+
+================================
+In Terminal 
+
+mvn compile com.google.cloud.tools:jib-maven-plugin:3.3.1:dockerBuild
+docker login
+docker tag <image-name>:tagname <repo-name>
+docker push <repo-name>
+
+kubectl apply -f <fileName.yaml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+kubectl get pods
+kubectl get deployments
+kubectl get services
+kubectl describe pod
+kubectl describe deployment
+kubectl delete -f <fileName.yaml>
+
+"colId": "colId",
+    "sort": "sort",
+    "filterModel": {},
+    "data": null
